@@ -18,6 +18,11 @@ const geistMono = localFont({
 
 export default function Home() {
   const products = [1, 2, 3];
+
+  const handleClick = () => {
+    alert("Tombol di klik");
+  };
+
   return (
     <>
       <Head>
@@ -45,7 +50,9 @@ export default function Home() {
             <li>Save and see your changes instantly.</li>
             <li>
               {" "}
-              {/* <Button />{" "} */}
+              <Button type="button" onClickButton={handleClick}>
+                Klik Saya
+              </Button>{" "}
             </li>
           </ol>
 
