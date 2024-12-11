@@ -45,7 +45,7 @@ export default function Home() {
             <li>Save and see your changes instantly.</li>
             <li>
               {" "}
-              <Button />{" "}
+              {/* <Button />{" "} */}
             </li>
           </ol>
 
